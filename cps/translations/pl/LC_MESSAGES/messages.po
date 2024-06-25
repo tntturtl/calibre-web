@@ -2155,11 +2155,11 @@ msgstr "Podaj nazwę domeny"
 
 #: cps/templates/book_table.html:73
 msgid "Comments"
-msgstr ""
+msgstr "Komentarze"
 
 #: cps/templates/book_table.html:75
 msgid "Archive Status"
-msgstr ""
+msgstr "Status archiwum"
 
 #: cps/templates/book_table.html:77 cps/templates/search_form.html:42
 msgid "Read Status"
@@ -2248,15 +2248,15 @@ msgstr "Kanał aktualizacji"
 
 #: cps/templates/config_edit.html:45
 msgid "Stable"
-msgstr "Wersje stabilne"
+msgstr "Wersja stabilna"
 
 #: cps/templates/config_edit.html:46
 msgid "Nightly"
-msgstr "Wydania nocne"
+msgstr "Wersja "nightly""
 
 #: cps/templates/config_edit.html:50
 msgid "Trusted Hosts (Comma Separated)"
-msgstr ""
+msgstr "Zaufane urządzenia (oddzielone przecinkiem)"
 
 #: cps/templates/config_edit.html:61
 msgid "Logfile Configuration"
@@ -2268,7 +2268,7 @@ msgstr "Lokalizacja i nazwa pliku dziennika (domyślnie calibre-web.log)"
 
 #: cps/templates/config_edit.html:82
 msgid "Enable Access Log"
-msgstr "Włącz dziennik dostępu (access log)"
+msgstr "Włącz dziennik dostępu"
 
 #: cps/templates/config_edit.html:85
 msgid "Location and name of access logfile (access.log for no entry)"
@@ -2280,7 +2280,7 @@ msgstr "Konfiguracja funkcjonalności"
 
 #: cps/templates/config_edit.html:104
 msgid "Convert non-English characters in title and author while saving to disk"
-msgstr ""
+msgstr "Konwertuj nieangielkie znaki w tytułach i autorach podczas zapisywania na dysk"
 
 #: cps/templates/config_edit.html:108
 msgid "Embed Metadata to Ebook File on Download/Conversion/e-mail (needs Calibre/Kepubify binaries)"
@@ -2292,7 +2292,7 @@ msgstr "Włącz wysyłanie"
 
 #: cps/templates/config_edit.html:112
 msgid "(Please ensure that users also have upload permissions)"
-msgstr ""
+msgstr "(Upewnij się, że użytkownik ma uprawnienia do wysyłania)"
 
 #: cps/templates/config_edit.html:116
 msgid "Allowed Upload Fileformats"
@@ -2392,7 +2392,7 @@ msgstr "Uwierzytelnianie LDAP"
 
 #: cps/templates/config_edit.html:234
 msgid "Anonymous"
-msgstr "Anonim"
+msgstr "Anonimowy"
 
 #: cps/templates/config_edit.html:235
 msgid "Unauthenticated"
@@ -2476,11 +2476,11 @@ msgstr "Zewnętrzne pliki"
 #: cps/templates/config_edit.html:325
 #, fuzzy
 msgid "Path to Calibre Binaries"
-msgstr "Ścieżka do konwertera Calibre"
+msgstr "Ścieżka doplików binarnych Calibre"
 
 #: cps/templates/config_edit.html:333
 msgid "Calibre E-Book Converter Settings"
-msgstr "Ustawienia konwertera calibre"
+msgstr "Ustawienia konwertera e-book calibre"
 
 #: cps/templates/config_edit.html:336
 msgid "Path to Kepubify E-Book Converter"
@@ -2498,7 +2498,7 @@ msgstr "Ustawienia OAuth"
 
 #: cps/templates/config_edit.html:368
 msgid "Limit failed login attempts"
-msgstr ""
+msgstr "Ogranicz liczbę nieudanych prób logowania"
 
 #: cps/templates/config_edit.html:372
 msgid "Configure Backend for Limiter"
@@ -2510,15 +2510,15 @@ msgstr ""
 
 #: cps/templates/config_edit.html:381
 msgid "Session protection"
-msgstr ""
+msgstr "Zabezpieczenie sesji"
 
 #: cps/templates/config_edit.html:383
 msgid "Basic"
-msgstr ""
+msgstr "Łatwe"
 
 #: cps/templates/config_edit.html:384
 msgid "Strong"
-msgstr ""
+msgstr "Mocne"
 
 #: cps/templates/config_edit.html:389
 #, fuzzy
@@ -2527,27 +2527,27 @@ msgstr "Zresetuj hasło użytkownika"
 
 #: cps/templates/config_edit.html:393
 msgid "Minimum password length"
-msgstr ""
+msgstr "Minimalna długość hasła"
 
 #: cps/templates/config_edit.html:398
 msgid "Enforce number"
-msgstr ""
+msgstr "Wymuś liczby"
 
 #: cps/templates/config_edit.html:402
 msgid "Enforce lowercase characters"
-msgstr ""
+msgstr "Wymuś małe litery"
 
 #: cps/templates/config_edit.html:406
 msgid "Enforce uppercase characters"
-msgstr ""
+msgstr "Wymuś wielkie litery"
 
 #: cps/templates/config_edit.html:410
 msgid "Enforce characters (needed For Chinese/Japanese/Korean Characters)"
-msgstr ""
+msgstr "Wymuś znaki (potrzebne dla znaków w chińskim/japońskim/koreańskim)"
 
 #: cps/templates/config_edit.html:414
 msgid "Enforce special characters"
-msgstr ""
+msgstr "Wymuś specjalne znaki"
 
 #: cps/templates/config_view_edit.html:17
 msgid "View Configuration"
@@ -2663,7 +2663,7 @@ msgstr "Słuchaj w przeglądarce"
 #: cps/templates/detail.html:150 cps/templates/listenmp3.html:62
 #, fuzzy, python-format
 msgid "Book %(index)s of %(range)s"
-msgstr ""
+msgstr "Książka %(index)s z %(range)s"
 
 #: cps/templates/detail.html:201 cps/templates/listenmp3.html:111
 msgid "Published"
@@ -2707,7 +2707,7 @@ msgstr "Dodaj do półki"
 #: cps/templates/listenmp3.html:201 cps/templates/listenmp3.html:218
 #: cps/templates/search.html:22
 msgid "(Public)"
-msgstr "(publiczna)"
+msgstr "(Publiczna)"
 
 #: cps/templates/detail.html:340
 msgid "Edit Metadata"
@@ -2725,15 +2725,15 @@ msgstr "Użyj standardowego konta e-mail"
 #: cps/templates/email_edit.html:16
 #, fuzzy
 msgid "Gmail Account"
-msgstr "Wybierz typ serwera"
+msgstr "Konto Gmail"
 
 #: cps/templates/email_edit.html:22
 msgid "Setup Gmail Account"
-msgstr ""
+msgstr "Ustaw konto Gmail"
 
 #: cps/templates/email_edit.html:24
 msgid "Revoke Gmail Access"
-msgstr "Cofnij dostęp do Gmaila"
+msgstr "Cofnij dostęp do konta Gmaila"
 
 #: cps/templates/email_edit.html:42
 msgid "STARTTLS"
@@ -2797,7 +2797,7 @@ msgstr "Token Kobo Sync"
 
 #: cps/templates/grid.html:21
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: cps/templates/http_error.html:34
 msgid "Calibre-Web Instance is unconfigured, please contact your administrator"
@@ -2820,11 +2820,11 @@ msgstr "Wyloguj użytkownika"
 
 #: cps/templates/index.html:71
 msgid "Sort ascending according to download count"
-msgstr ""
+msgstr "Sortuj rosnąco według liczby pobrań"
 
 #: cps/templates/index.html:72
 msgid "Sort descending according to download count"
-msgstr ""
+msgstr "Sortuj malejąco według liczby pobrań"
 
 #: cps/templates/index.html:78 cps/templates/search.html:35
 #: cps/templates/shelf.html:24
@@ -2974,7 +2974,7 @@ msgstr "Szczegóły książki"
 
 #: cps/templates/list.html:22
 msgid "Grid"
-msgstr ""
+msgstr "Siatka"
 
 #: cps/templates/login.html:18
 msgid "Remember Me"
@@ -3092,7 +3092,7 @@ msgstr "Katalog e-booków Calibre-Web"
 #: cps/templates/read.html:6
 #, fuzzy
 msgid "epub Reader"
-msgstr "Czytnik PDF"
+msgstr "Czytnik ePub"
 
 #: cps/templates/read.html:81 cps/templates/readcbr.html:104
 msgid "Light"
@@ -3104,7 +3104,7 @@ msgstr "Ciemny"
 
 #: cps/templates/read.html:83
 msgid "Sepia"
-msgstr ""
+msgstr "Sepia"
 
 #: cps/templates/read.html:84
 #, fuzzy
@@ -3117,12 +3117,12 @@ msgstr "Przepływ tekstu, gdy paski boczne są otwarte."
 
 #: cps/templates/read.html:93
 msgid "Font Sizes"
-msgstr ""
+msgstr "Wielkość czcionki"
 
 #: cps/templates/readcbr.html:8
 #, fuzzy
 msgid "Comic Reader"
-msgstr "Czytnik PDF"
+msgstr "Czytnik komiksów"
 
 #: cps/templates/readcbr.html:75
 msgid "Keyboard Shortcuts"
@@ -3138,7 +3138,7 @@ msgstr "Następna strona"
 
 #: cps/templates/readcbr.html:80
 msgid "Single Page Display"
-msgstr ""
+msgstr "Wyświetlanie pojedynczej strony"
 
 #: cps/templates/readcbr.html:81
 msgid "Long Strip Display"
@@ -3158,7 +3158,7 @@ msgstr "Skaluj do wysokości"
 
 #: cps/templates/readcbr.html:85
 msgid "Scale to Native"
-msgstr "Skaluj do wielkości oryginalnej"
+msgstr "Skaluj do oryginalnej wielkości"
 
 #: cps/templates/readcbr.html:86
 msgid "Rotate Right"
@@ -3174,16 +3174,16 @@ msgstr "Odwórć obraz"
 
 #: cps/templates/readcbr.html:110
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 #: cps/templates/readcbr.html:113
 #, fuzzy
 msgid "Single Page"
-msgstr "Panel administratora"
+msgstr "Pojedyncza strona"
 
 #: cps/templates/readcbr.html:114
 msgid "Long Strip"
-msgstr ""
+msgstr "Długi pasek"
 
 #: cps/templates/readcbr.html:119
 msgid "Scale"
@@ -3235,11 +3235,11 @@ msgstr "Od prawej do lewej"
 
 #: cps/templates/readcbr.html:162
 msgid "Reset to Top"
-msgstr ""
+msgstr "Zresetuj do góry"
 
 #: cps/templates/readcbr.html:163
 msgid "Remember Position"
-msgstr ""
+msgstr "Zapamiętaj pozycję"
 
 #: cps/templates/readcbr.html:168
 msgid "Scrollbar"
@@ -3298,7 +3298,7 @@ msgstr "Link wygaśnie po 10 minutach."
 
 #: cps/templates/schedule_edit.html:33
 msgid "Generate Series Cover Thumbnails"
-msgstr ""
+msgstr "Generuj miniatury okładki cyklów"
 
 #: cps/templates/search.html:6
 msgid "No Results Found"
@@ -3322,11 +3322,11 @@ msgstr "Data publikacji do"
 
 #: cps/templates/search_form.html:44
 msgid "Any"
-msgstr ""
+msgstr "Jakakolwiek"
 
 #: cps/templates/search_form.html:45
 msgid "Empty"
-msgstr ""
+msgstr "Pusta"
 
 #: cps/templates/search_form.html:60
 msgid "Exclude Tags"
@@ -3406,19 +3406,19 @@ msgstr "Ukryta książka"
 
 #: cps/templates/stats.html:7
 msgid "Library Statistics"
-msgstr "Statystyki biblioteki Calibre"
+msgstr "Statystyki biblioteki"
 
 #: cps/templates/stats.html:12
 msgid "Books in this Library"
-msgstr "Książki"
+msgstr "Książki w tej bibliotece"
 
 #: cps/templates/stats.html:16
 msgid "Authors in this Library"
-msgstr "Autorzy"
+msgstr "Autorzy w tej bibliotece"
 
 #: cps/templates/stats.html:20
 msgid "Categories in this Library"
-msgstr "Kategorie"
+msgstr "Kategorie w tej bibliotece"
 
 #: cps/templates/stats.html:24
 msgid "Series in this Library"
@@ -3459,15 +3459,15 @@ msgstr "Czas wykonania"
 
 #: cps/templates/tasks.html:20
 msgid "Actions"
-msgstr ""
+msgstr "Działania"
 
 #: cps/templates/tasks.html:40
 msgid "This task will be cancelled. Any progress made by this task will be saved."
-msgstr ""
+msgstr "To zadanie będzie anulowane. Postępy będą zapisane."
 
 #: cps/templates/tasks.html:41
 msgid "If this is a scheduled task, it will be re-ran during the next scheduled time."
-msgstr ""
+msgstr "Jeśli to jest zaplanowane zadanie, będzie ono ponownie uruchomione w zaplanowanym czasie."
 
 #: cps/templates/user_edit.html:20
 msgid "Reset user Password"
@@ -3499,7 +3499,7 @@ msgstr "Utwórz/Przeglądaj"
 
 #: cps/templates/user_edit.html:70
 msgid "Force full kobo sync"
-msgstr ""
+msgstr "Wymuś pełną synchronizacje z Kobo"
 
 #: cps/templates/user_edit.html:88
 msgid "Add allowed/Denied Custom Column Values"
@@ -3511,7 +3511,7 @@ msgstr "Synchronizuj z Kobo tylko książki z wybranych półek"
 
 #: cps/templates/user_edit.html:147 cps/templates/user_table.html:169
 msgid "Delete User"
-msgstr "Usuń tego użytkownika"
+msgstr "Usuń użytkownika"
 
 #: cps/templates/user_edit.html:159
 msgid "Generate Kobo Auth URL"
@@ -3532,17 +3532,17 @@ msgstr "Wprowadź nazwę użytkownika"
 #: cps/templates/user_table.html:135
 #, fuzzy
 msgid "Enter Email"
-msgstr "Testowy e-mail"
+msgstr "Wprowadż e-mail"
 
 #: cps/templates/user_table.html:136
 #, fuzzy
 msgid "Enter eReader Email"
-msgstr "Adres e-mail dla wysyłania do Kindle"
+msgstr "Wprowadź adres e-mail czytnika"
 
 #: cps/templates/user_table.html:136
 #, fuzzy
 msgid "eReader Email"
-msgstr "Testowy e-mail"
+msgstr "Adres e-mail czytnika"
 
 #: cps/templates/user_table.html:137
 #, fuzzy
@@ -3555,11 +3555,11 @@ msgstr "Widoczne języki książek"
 
 #: cps/templates/user_table.html:139
 msgid "Edit Allowed Tags"
-msgstr "Edytuj dozwolone tagi"
+msgstr "Edytuj dozwolone etykiety"
 
 #: cps/templates/user_table.html:139
 msgid "Allowed Tags"
-msgstr "Dozwolone Tagi"
+msgstr "Dozwolone etykiety"
 
 #: cps/templates/user_table.html:140
 msgid "Edit Denied Tags"
