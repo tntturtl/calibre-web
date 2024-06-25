@@ -196,11 +196,11 @@ msgstr "Czy na pewno chcesz zmienić lokalizację biblioteki Calibre?"
 
 #: cps/admin.py:633
 msgid "Calibre-Web will search for updated Covers and update Cover Thumbnails, this may take a while?"
-msgstr ""
+msgstr "Calibre-Web wyszuka zaktualizowane okładki i zaktualizuje miniatury okładek, może to chwilę potrwać?"
 
 #: cps/admin.py:636
 msgid "Are you sure you want delete Calibre-Web's sync database to force a full sync with your Kobo Reader?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć zsynchronizowaną bazę danych Calibre-Web, aby wymusić pełną synchronizację z czytnikiem Kobo Reader?"
 
 #: cps/admin.py:879 cps/admin.py:885 cps/admin.py:895 cps/admin.py:905
 #: cps/templates/modal_dialogs.html:29 cps/templates/user_table.html:41
@@ -216,7 +216,7 @@ msgstr "Zezwalaj"
 
 #: cps/admin.py:940
 msgid "{} sync entries deleted"
-msgstr ""
+msgstr "{} usuniętych synchronizowanych wpisów"
 
 #: cps/admin.py:981
 #, fuzzy
@@ -292,7 +292,7 @@ msgstr "Zmień ustawienia SMTP"
 
 #: cps/admin.py:1305
 msgid "Success! Gmail Account Verified."
-msgstr ""
+msgstr "Sukces! Konto Gmail zostało zwerifikowane"
 
 #: cps/admin.py:1325 cps/admin.py:1328 cps/admin.py:1713 cps/admin.py:1857
 #: cps/admin.py:1955 cps/admin.py:2076 cps/editbooks.py:243
@@ -323,19 +323,19 @@ msgstr "Zaktualizowano ustawienia serwera poczty e-mail"
 
 #: cps/admin.py:1365 cps/templates/admin.html:195
 msgid "Edit Scheduled Tasks Settings"
-msgstr ""
+msgstr "Edycja ustawień zaplanowanych zadań"
 
 #: cps/admin.py:1377
 msgid "Invalid start time for task specified"
-msgstr ""
+msgstr "Nieprawidłowy czas rozpoczęcia zadania"
 
 #: cps/admin.py:1382
 msgid "Invalid duration for task specified"
-msgstr ""
+msgstr "Nieprawidłowy czas trwania zadania"
 
 #: cps/admin.py:1392
 msgid "Scheduled tasks settings updated"
-msgstr ""
+msgstr "Ustawienia zaplanowanych zadań zostały zaktualizowane"
 
 #: cps/admin.py:1402 cps/admin.py:1451 cps/admin.py:2072 cps/web.py:1316
 msgid "Oops! An unknown error occurred. Please try again later."
@@ -343,7 +343,7 @@ msgstr "Wystąpił nieznany błąd. Spróbuj ponownie później."
 
 #: cps/admin.py:1406
 msgid "Settings DB is not Writeable"
-msgstr ""
+msgstr "Baza ustawień jest tylko do odczytu"
 
 #: cps/admin.py:1436 cps/admin.py:2064
 #, python-format
@@ -422,7 +422,7 @@ msgstr "Plik aktualizacji nie mógł zostać zapisany w katalogu tymczasowym"
 
 #: cps/admin.py:1543
 msgid "Files could not be replaced during update"
-msgstr ""
+msgstr "Pliki nie mogły zostać zastąpione podczas aktualizacji"
 
 #: cps/admin.py:1567
 #, fuzzy
@@ -551,7 +551,7 @@ msgstr "Błąd otwierania e-booka. Plik nie istnieje lub jest niedostępny"
 
 #: cps/editbooks.py:168 cps/editbooks.py:1263
 msgid "User has no rights to upload cover"
-msgstr ""
+msgstr "Użytkownik nie ma uprawnień do przesyłania okładek"
 
 #: cps/editbooks.py:188 cps/editbooks.py:733
 msgid "Identifiers are not Case Sensitive, Overwriting Old Identifier"
@@ -563,7 +563,7 @@ msgstr "Metadane zostały pomyślnie zaktualizowane"
 
 #: cps/editbooks.py:248
 msgid "Error editing book: {}"
-msgstr ""
+msgstr "Błąd przy edycji książki: {}"
 
 #: cps/editbooks.py:305
 #, python-format
@@ -622,7 +622,7 @@ msgstr "Książka została usunięta"
 
 #: cps/editbooks.py:897
 msgid "You are missing permissions to delete books"
-msgstr ""
+msgstr "Nie masz uprawnień do usuwania książek"
 
 #: cps/editbooks.py:947
 msgid "edit metadata"
@@ -727,7 +727,7 @@ msgstr "Żądany plik nie mógł zostać odczytany. Może brakuje uprawnień?"
 
 #: cps/helper.py:347
 msgid "Read status could not set: {}"
-msgstr ""
+msgstr "Nie można ustawić stanu odczytu"
 
 #: cps/helper.py:370
 #, python-format
@@ -761,7 +761,7 @@ msgstr "Zmiana nazwy tytułu z: „%(src)s” na „%(dest)s” zakończyła si�
 
 #: cps/helper.py:587
 msgid "Error in rename file in path: {}"
-msgstr ""
+msgstr "Błąd przy zmianie nazwy pliku w ścieżce: {}"
 
 #: cps/helper.py:605
 #, python-format
@@ -770,7 +770,7 @@ msgstr "Nie znaleziono ścieżki do książki %(path)s na Google Drive"
 
 #: cps/helper.py:670
 msgid "Found an existing account for this Email address"
-msgstr ""
+msgstr "Znaleziono istniejące konto dla tego adresu e-mail"
 
 #: cps/helper.py:678
 msgid "This username is already taken"
@@ -783,11 +783,11 @@ msgstr "Nieprawidłowy format adresu e-mail"
 
 #: cps/helper.py:710
 msgid "Password doesn't comply with password validation rules"
-msgstr ""
+msgstr "Hasło nie jest zgodne z regułami sprawdzania poprawności hasła"
 
 #: cps/helper.py:859
 msgid "Python module 'advocate' is not installed but is needed for cover uploads"
-msgstr ""
+msgstr "Moduł "advocate" język Python, potrzebny do przesyłanai okładek, nie jest zainstalowany."
 
 #: cps/helper.py:869
 msgid "Error Downloading Cover"
@@ -799,7 +799,7 @@ msgstr "Błędny format okładki"
 
 #: cps/helper.py:875
 msgid "You are not allowed to access localhost or the local network for cover uploads"
-msgstr ""
+msgstr "Nie możesz uzyskać dostępu do localhost lub sieci lokalnej w celu przesłania okładki"
 
 #: cps/helper.py:885
 msgid "Failed to create path for cover"
@@ -815,7 +815,7 @@ msgstr "Jako plik okładki obsługiwane są tylko pliki jpg/jpeg/png/webp/bmp"
 
 #: cps/helper.py:924
 msgid "Invalid cover file content"
-msgstr ""
+msgstr "Nieprawidłowa zawartość pliku okładki"
 
 #: cps/helper.py:928
 msgid "Only jpg/jpeg files are supported as coverfile"
@@ -837,21 +837,21 @@ msgstr "Błąd przy wykonywaniu unrar"
 
 #: cps/helper.py:1035
 msgid "Could not find the specified directory"
-msgstr ""
+msgstr "Nie znaleziono określonego katalogu"
 
 #: cps/helper.py:1038
 msgid "Please specify a directory, not a file"
-msgstr ""
+msgstr " Proszę wskazać katalog zamiast pliku"
 
 #: cps/helper.py:1052
 #, fuzzy
 msgid "Calibre binaries not viable"
-msgstr "Baza danych nie jest zapisywalna"
+msgstr "Pliki binarne Calibre nie działają"
 
 #: cps/helper.py:1061
 #, python-format
 msgid "Missing calibre binaries: %(missing)s"
-msgstr ""
+msgstr "Brakujące pliki binarne Calibre: %(missing)s"
 
 #: cps/helper.py:1063
 #, fuzzy, python-format
@@ -861,11 +861,11 @@ msgstr "Brak uprawnienia do wykonywania pliku"
 #: cps/helper.py:1068
 #, fuzzy
 msgid "Error executing Calibre"
-msgstr "Błąd przy wykonywaniu unrar"
+msgstr "Błąd przy uruchamianiu Calibre"
 
 #: cps/helper.py:1158 cps/templates/admin.html:216
 msgid "Queue all books for metadata backup"
-msgstr ""
+msgstr "Kolejkowanie wszystkich książek do kopii zapasowej metadanych"
 
 #: cps/kobo_auth.py:90
 #, fuzzy
@@ -1178,7 +1178,7 @@ msgstr "Książka została dodana do półki: %(sname)s"
 
 #: cps/shelf.py:116
 msgid "You are not allowed to add a book to the shelf"
-msgstr ""
+msgstr "Nie masz uprawnień do dodania książki na półkę"
 
 #: cps/shelf.py:134
 #, python-format
@@ -1202,7 +1202,7 @@ msgstr "Książka została usunięta z półki: %(sname)s"
 
 #: cps/shelf.py:208
 msgid "Sorry you are not allowed to remove a book from this shelf"
-msgstr ""
+msgstr "Nie możesz usunąć książki z tej półki"
 
 #: cps/shelf.py:218 cps/templates/layout.html:157
 msgid "Create a Shelf"
@@ -1211,7 +1211,7 @@ msgstr "Utwórz półkę"
 #: cps/shelf.py:226
 #, fuzzy
 msgid "Sorry you are not allowed to edit this shelf"
-msgstr "Niestety nie możesz usunąć książki z tej półki %(sname)s"
+msgstr "Nie możesz usunąć książki z tej półki %(sname)s"
 
 #: cps/shelf.py:228
 msgid "Edit a shelf"
@@ -1219,12 +1219,12 @@ msgstr "Edytuj półkę"
 
 #: cps/shelf.py:237
 msgid "Error deleting Shelf"
-msgstr ""
+msgstr "Błąd podczas usuwania półki"
 
 #: cps/shelf.py:239
 #, fuzzy
 msgid "Shelf successfully deleted"
-msgstr "Książka została usunięta"
+msgstr "Półka została usunięta"
 
 #: cps/shelf.py:289
 #, python-format
@@ -1233,7 +1233,7 @@ msgstr "Zmieniono kolejność półki: '%(name)s'"
 
 #: cps/shelf.py:324
 msgid "Sorry you are not allowed to create a public shelf"
-msgstr ""
+msgstr "Nie możesz utworzyć nowej publicznej półki"
 
 #: cps/shelf.py:341
 #, python-format
@@ -1243,7 +1243,7 @@ msgstr "Półka %(title)s została utworzona"
 #: cps/shelf.py:344
 #, python-format
 msgid "Shelf %(title)s changed"
-msgstr "Półka %(title)s została zmieniona"
+msgstr "ółki %(title)s została zmieniona"
 
 #: cps/shelf.py:358
 msgid "There was an error"
